@@ -1,0 +1,98 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    title TourWind
+    meta(name="description", content="")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    // font awesome cdn
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css", integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==", crossorigin="anonymous", referrerpolicy="no-referrer")
+    // fonts
+    link(rel="stylesheet", href="webfonts/fonts.css")
+    // normalize css
+    link(rel="stylesheet", href="stylesheets/normalize.css")
+    // custom css
+    link(rel="stylesheet", href="stylesheets/utility.css")
+    link(rel="stylesheet", href="stylesheets/style.css")
+    link(rel="stylesheet", href="stylesheets/responsive.css")
+html
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    title TourWind
+    meta(name="description", content="")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    // font awesome cdn
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css", integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==", crossorigin="anonymous", referrerpolicy="no-referrer")
+    // Bootstrap CSS
+    link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css")
+
+  body
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light
+      div.container
+        a.navbar-brand(href="/")
+          | Tour
+          span Wind
+        button.navbar-toggler(type="button", data-toggle="collapse", data-target="#navbarNav", aria-controls="navbarNav", aria-expanded="false", aria-label="Toggle navigation")
+          span.navbar-toggler-icon
+        div#navbarNav.collapse.navbar-collapse
+          ul.navbar-nav
+            li.nav-item
+              a.nav-link(href="/") Home
+            li.nav-item
+              a.nav-link(href="/gallery/") Gallery
+            li.nav-item
+              a.nav-link(href="/about/") About
+            li.nav-item
+              a.nav-link(href="/Contacts/") Contact
+                  
+    header.flex
+      div.container
+        div.header-title
+          h1 India
+          p Famous places in india.
+        div.header-form
+          form.flex
+
+  body
+    nav.navbar.fixed-top.navbar-toggleable-md.navbar-inverse
+      .container
+        button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarMain')
+          span.navbar-toggler-icon
+ 
+        section#featured.py-4
+    .container
+        .title-wrap
+
+        .featured-row
+            .featured-item.my-2.shadow
+                img(src="https://c0.wallpaperflare.com/preview/733/854/355/india-taj-mahal-agra-world.jpg", alt="featured place")
+                .featured-item-content
+                   span
+                        i.fas.fa-map-marker-alt
+                        | Agra
+                    
+                   div
+                      h1 taj mahal 
+                      p.text The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan (reigned from 1628 to 1658), to house the tomb of his favourite wife, Mumtaz Mahal. The tomb is the centrepiece of a 17-hectare (42-acre)complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.
+            .featured-item.my-2.shadow
+                img(src="https://c4.wallpaperflare.com/wallpaper/404/633/114/5bd34ad9b11a2-wallpaper-preview.jpg", alt="featured place")
+                .featured-item-content
+                   span
+                        i.fas.fa-map-marker-alt
+                        | Goa
+                    
+                   div
+                      h1 beach
+                      p.text The state of Goa, in India, is famous for its beaches and places of worship. Tourism is its primary industry, and is generally focused on the coastal areas of Goa, with decreased tourist activity inland.
+            .featured-item.my-2.shadow
+                img(src="https://c4.wallpaperflare.com/wallpaper/100/217/163/landscape-photography-of-brown-mountain-during-yellow-sunset-graz-graz-wallpaper-preview.jpg", alt="featured place")
+                .featured-item-content
+                   span
+                        i.fas.fa-map-marker-alt
+                        | lah ladhak
+                    
+                   div
+                      h1 mountains
+                      p.text Located in the Ladakh region of Jammu and Kashmir, Leh is known for its stunning scenic locales, Buddhist temples and pristine environment. Due to the strong influence of Tibetan Buddhism, Leh is also known as Little Tibet or the Land of Lamas.

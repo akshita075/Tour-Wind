@@ -1,0 +1,98 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    title TourWind
+    meta(name="description", content="")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    // font awesome cdn
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css", integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==", crossorigin="anonymous", referrerpolicy="no-referrer")
+    // fonts
+    link(rel="stylesheet", href="webfonts/fonts.css")
+    // normalize css
+    link(rel="stylesheet", href="stylesheets/normalize.css")
+    // custom css
+    link(rel="stylesheet", href="stylesheets/utility.css")
+    link(rel="stylesheet", href="stylesheets/style.css")
+    link(rel="stylesheet", href="stylesheets/responsive.css")
+html
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    title TourWind
+    meta(name="description", content="")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    // font awesome cdn
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css", integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==", crossorigin="anonymous", referrerpolicy="no-referrer")
+    // Bootstrap CSS
+    link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css")
+
+  body
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light
+      div.container
+        a.navbar-brand(href="/")
+          | Tour
+          span Wind
+        button.navbar-toggler(type="button", data-toggle="collapse", data-target="#navbarNav", aria-controls="navbarNav", aria-expanded="false", aria-label="Toggle navigation")
+          span.navbar-toggler-icon
+        div#navbarNav.collapse.navbar-collapse
+          ul.navbar-nav
+            li.nav-item
+              a.nav-link(href="/") Home
+            li.nav-item
+              a.nav-link(href="/gallery/") Gallery
+            li.nav-item
+              a.nav-link(href="/about/") About
+            li.nav-item
+              a.nav-link(href="/Contacts/") Contact
+
+    header.flex
+      div.container
+        div.header-title
+          h1 Thailand
+          p Famous places in thailand.
+        div.header-form
+          form.flex
+
+body
+    nav.navbar.fixed-top.navbar-toggleable-md.navbar-inverse
+      .container
+        button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarMain')
+          span.navbar-toggler-icon
+ 
+        section#featured.py-4
+    .container
+        .title-wrap
+
+        .featured-row
+            .featured-item.my-2.shadow
+                img(src="https://c4.wallpaperflare.com/wallpaper/677/883/769/temple-thailand-ayutthaya-historical-park-buddhist-temple-wallpaper-preview.jpg", alt="featured place")
+                .featured-item-content
+                   span
+                        i.fas.fa-map-marker-alt
+                        | Phra Nakhon Si Ayutthaya
+                    
+                   div
+                      h1 ayutthaya  
+                      p.text Set on vast landscaped grounds, the temple was constructed during King U-Thong's reign (1350–1369) as a forest temple school. Surrounding the principal chedi are cloister walls lined with several Buddha images – a unique architectural feature of the Early Ayutthaya Period.
+            .featured-item.my-2.shadow
+                img(src="https://media.istockphoto.com/id/499977613/photo/swing-hang-from-coconut-tree-over-beach-phangan-island-thailand.jpg?s=612x612&w=0&k=20&c=p9ZjM0htFASr3cWxHOiE2qMTsb5x4t7uLRT6WuSXaeI=", alt="featured place")
+                .featured-item-content
+                   span
+                        i.fas.fa-map-marker-alt
+                        | thailand
+                    
+                   div
+                      h1 mu ko chang national park
+                      p.text Mu Ko Chang National Park (Thai: อุทยานแห่งชาติหมู่เกาะช้าง) is in Trat Province, eastern Thailand. It spans several provincial districts. It is a marine national park with an area of 406,250 rai ~ 650 square kilometres (250 sq mi), including 52 islands. The most notable island within the archipelago is Ko Chang.
+            .featured-item.my-2.shadow
+                img(src="https://c4.wallpaperflare.com/wallpaper/158/76/938/5bd3be7a5f822-wallpaper-preview.jpg", alt="featured place")
+                .featured-item-content
+                   span
+                        i.fas.fa-map-marker-alt
+                        | kanchanaburi
+                    
+                   div
+                      h1  erawan
+                      p.textIn tErawan national park is another significant National Park in Thailand. Located in Kanchanaburi, Thailand, it has received many awards, with the most prodigious being the award in the natural attractions category at the 6th Thailand Tourism Industry Awards in 2006. Here lies the biggest and most beautiful waterfall of Kanchanaburi, Erawan Waterfall, which runs from the Huai Mong Lai River down a 2100 meters tall mountain. The waterfall is 1500 meters long and has seven tiers, each of which is a great and safe swimming area. Moreover, you can take a 30 minute walk around Erawan nature trail to savor the beauty of hill evergreen forest and deciduous forest.

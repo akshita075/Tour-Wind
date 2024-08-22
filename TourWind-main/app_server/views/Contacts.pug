@@ -1,0 +1,111 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    title TourWind
+    meta(name="description", content="")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    // font awesome cdn
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css", integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==", crossorigin="anonymous", referrerpolicy="no-referrer")
+    // fonts
+    link(rel="stylesheet", href="webfonts/fonts.css")
+    // normalize css
+    link(rel="stylesheet", href="stylesheets/normalize.css")
+    // custom css
+    link(rel="stylesheet", href="stylesheets/utility.css")
+    link(rel="stylesheet", href="stylesheets/style.css")
+    link(rel="stylesheet", href="stylesheets/responsive.css")
+html
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    title TourWind
+    meta(name="description", content="")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    // font awesome cdn
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css", integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==", crossorigin="anonymous", referrerpolicy="no-referrer")
+    // Bootstrap CSS
+    link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css")
+
+  body
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light
+      div.container
+        a.navbar-brand(href="/")
+          | Tour
+          span Wind
+        button.navbar-toggler(type="button", data-toggle="collapse", data-target="#navbarNav", aria-controls="navbarNav", aria-expanded="false", aria-label="Toggle navigation")
+          span.navbar-toggler-icon
+        div#navbarNav.collapse.navbar-collapse
+          ul.navbar-nav
+            li.nav-item
+              a.nav-link(href="/") Home
+            li.nav-item
+              a.nav-link(href="/gallery/") Gallery
+            li.nav-item
+              a.nav-link(href="/about/") About
+            li.nav-item
+              a.nav-link(href="/Contacts/") Contact
+              header.flex.header-sm
+  div.container
+    div.header-title
+      h1 Contact Details
+      p 
+
+section#contact.py-4
+  div.container
+    div.title-wrap
+      span.sm-title get in touch with us
+      h2.lg-title contact us
+
+
+
+      div.contact-right.my-2
+        div.contact-item
+          span.contact-icon.flex
+            i.fa.fa-phone-alt
+          div
+            span Phone
+            p.text +01-584-886-009
+
+        div.contact-item
+          span.contact-icon.flex
+            i.fa.fa-map-marked-alt
+          div
+            span Address
+            p.text Anurag university
+
+        div.contact-item
+          span.contact-icon.flex
+            i.fa.fa-envelope
+          div
+            span Message
+            p.text info@TourWind.com
+
+footer.py-4
+  div.container.footer-row
+    div.footer-item
+      a.site-brand(href="index.html") Tour
+      span Wind
+      p.text 
+
+    div.footer-item
+      h2 Follow us on:
+      ul.social-links
+        li
+          a(href="#")
+            i.fab.fa-facebook-f
+        li
+          a(href="#")
+            i.fab.fa-instagram
+        li
+          a(href="#")
+            i.fab.fa-twitter
+        li
+          a(href="#")
+            i.fab.fa-pinterest
+        li
+          a(href="#")
+            i.fab.fa-google-plus
+
+              
